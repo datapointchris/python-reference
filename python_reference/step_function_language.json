@@ -1,0 +1,48 @@
+{
+    "Comment": "Transform results into nested structure",
+    "StartAt": "MapState",
+    "States": {
+        "MapState": {
+            "Type": "Map",
+            "ItemsPath": "$.items",
+            "ResultPath": "$.results",
+            "Iterator": {
+                "StartAt": "RunGlueJob",
+                "States": {
+                    "RunGlueJob": {
+                        "Type": "Task",
+                        "Resource": "arn:aws:states:::glue:startJobRun.sync",
+                        "Parameters": {
+                            "JobName": "GlueJobName",
+                            "Arguments": {
+                                "--mapItem.$": "$$.Map.Item.Value"
+                            }
+                        },
+                        "ResultPath": "$.Map.Item.Output",
+                        "Next": "PassState"
+                    },
+                    "PassState": {
+                        "Type": "Pass",
+                        "Result": {
+                            "table.$": "$.Map.Item.Output.table",
+                            "status.$": "$.Map.Item.Output.status"
+                        },
+                        "ResultPath": "$.transformedResult",
+                        "End": true
+                    }
+                }
+            },
+            "Next": "TransformOutput"
+        },
+        "TransformOutput": {
+            "Type": "Pass",
+            "Parameters": {
+                "tables": {
+                    "table1.$": "$.mapResults[?(@.table == 'table1')].{jobs: {cdc: {status: $.status}}}",
+                    "table2.$": "$.mapResults[?(@.table == 'table2')].{jobs: {cdc: {status: $.status}}}"
+                }
+            },
+            "End": true
+        }
+    }
+}
