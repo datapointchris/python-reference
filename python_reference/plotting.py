@@ -17,11 +17,11 @@ def plot_learning_curves(model, X, y):
         train_errors.append(mean_squared_error(y_train[:m], y_train_predict))
         val_errors.append(mean_squared_error(y_val, y_val_predict))
 
-    plt.plot(np.sqrt(train_errors), "r-+", linewidth=2, label="train")
-    plt.plot(np.sqrt(val_errors), "b-", linewidth=3, label="val")
-    plt.legend(loc="upper right", fontsize=14)  # not shown in the book
-    plt.xlabel("Training set size", fontsize=14)  # not shown
-    plt.ylabel("RMSE", fontsize=14)  # not shown
+    plt.plot(np.sqrt(train_errors), 'r-+', linewidth=2, label='train')
+    plt.plot(np.sqrt(val_errors), 'b-', linewidth=3, label='val')
+    plt.legend(loc='upper right', fontsize=14)  # not shown in the book
+    plt.xlabel('Training set size', fontsize=14)  # not shown
+    plt.ylabel('RMSE', fontsize=14)  # not shown
 
 
 lin_reg = LinearRegression()

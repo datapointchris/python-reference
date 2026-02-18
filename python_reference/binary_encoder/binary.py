@@ -32,7 +32,7 @@ def binary_encode(bin_string: str) -> str:
 def binary_decode(encoded_string: str) -> str:
     bin_code = []
     count = 1
-    for i, char in enumerate(encoded_string):
+    for char in encoded_string:
         num = int(char)
         if num > 1:
             count = num

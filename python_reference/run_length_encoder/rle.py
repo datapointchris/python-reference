@@ -2,9 +2,9 @@ import itertools
 
 
 class RunLengthEncoder:
-    def __init__(self, operator='|', seperator='-'):
+    def __init__(self, operator='|', separator='-'):
         self.operator = operator
-        self.separator = seperator
+        self.separator = separator
 
     def encode(self, data):
         encoded = ''
@@ -23,7 +23,7 @@ class RunLengthEncoder:
         num = False
         # run = False
         print('char | enc | num')
-        for i, char in enumerate(data):
+        for _i, char in enumerate(data):
             print(char, enc, num)
 
             if char == self.operator and enc and not num:

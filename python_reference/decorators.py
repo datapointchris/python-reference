@@ -11,7 +11,7 @@ def function_timer(func):
         start_time = time.perf_counter()
         value = func(*args, **kwargs)
         elapsed_time = time.perf_counter() - start_time
-        print(f'Elapsed time: {round(elapsed_time/60,6)} minutes for {func.__name__!r}')
+        print(f'Elapsed time: {round(elapsed_time / 60, 6)} minutes for {func.__name__!r}')
         return value
 
     return wrapper

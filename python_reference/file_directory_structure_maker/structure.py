@@ -3,17 +3,17 @@ import json
 import pathlib
 
 TEST_STRUCTURE = {
-    "separator": ".",
-    "structure": {
+    'separator': '.',
+    'structure': {
         # "sections": {
         #     "project": ["project1", "project2"],
-        "sections": {
+        'sections': {
             # "views": ["frontend", "backend", "model", "view"],
             # "routes": ["baseroutes", "v2routes"],
-            "program": ["supervisor", "nginx"],
+            'program': ['supervisor', 'nginx'],
             # "resource": ["app", "api"],
-            "env": ["dev", "test", "prod"],
-            "sections": {"suffix": ["conf"]},
+            'env': ['dev', 'test', 'prod'],
+            'sections': {'suffix': ['conf']},
         },
         # },
     },
@@ -24,24 +24,25 @@ class Structure:
     def __init__(
         self,
         separator: str = '.',
-        structure: dict = {},
+        structure: dict | None = None,
         sections: list[dict] | None = None,
         permutations: list[dict] | None = None,
-        combinations: dict = {},
-        string_groups: dict = {},
-        tree_groups: dict = {},
+        combinations: dict | None = None,
+        string_groups: dict | None = None,
+        tree_groups: dict | None = None,
     ):
         self._separator = separator
-        self.structure = structure
+        self.structure = structure or {}
         self.sections = sections
         self.permutations = permutations
-        self.combinations = combinations
-        self.string_groups = string_groups
-        self.tree_groups = tree_groups
+        self.combinations = combinations or {}
+        self.string_groups = string_groups or {}
+        self.tree_groups = tree_groups or {}
 
         if not self.structure:
             raise RuntimeError(
-                "Incorrect data structure , no 'structure' key found.\n  Use `Structure(**data_dict)` or `Structure.from_json(json_string)` to load data."
+                "Incorrect data structure , no 'structure' key found.\n"
+                '  Use `Structure(**data_dict)` or `Structure.from_json(json_string)` to load data.'
             )
         self._build()
 
@@ -132,7 +133,7 @@ class Structure:
         tree_groups = {}
         for name, group in string_groups.items():
             separated = [file.split(self.separator) for file in group]
-            section_sets = [set(z) for z in zip(*separated)]
+            section_sets = [set(z) for z in zip(*separated, strict=False)]
             tree_groups[name] = self._build_tree_dicts(section_sets)
         return tree_groups
 
@@ -145,7 +146,7 @@ class Structure:
         LAST = '└── '
         # each section of tree group gets pointer ├── with a final └── :
         pointers = [TEE] * (len(tree_group) - 1) + [LAST]
-        for pointer, section in zip(pointers, tree_group):
+        for pointer, section in zip(pointers, tree_group, strict=True):
             yield prefix + pointer + section
             if isinstance(tree_group.get(section), dict):  # extend the prefix and recurse:
                 extension = BRANCH if pointer == TEE else SPACE

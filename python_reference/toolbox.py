@@ -9,6 +9,8 @@ def convert_bytes(num: int | float) -> str:
         if num < 1024.0 or unit == 'PB':
             break
         num /= 1024.0
+    else:
+        raise ValueError(f'Value {num} is too large to convert to human readable format')
     return f'{num:.2f} {unit}'
 
 
@@ -54,7 +56,7 @@ def tree(
         contents = list(set(contents) - set(exclude))
     # contents each get pointers that are ├── with a final └── :
     pointers = [TEE] * (len(contents) - 1) + [LAST]
-    for pointer, path in zip(pointers, contents):
+    for pointer, path in zip(pointers, contents, strict=True):
         yield prefix + pointer + path.name
         if path.is_dir():  # extend the prefix and recurse:
             extension = BRANCH if pointer == TEE else SPACE

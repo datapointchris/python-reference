@@ -49,14 +49,14 @@ if __name__ == '__main__':
                     )
         results = [result.get() for result in results]
 
-    print(tabulate(results[:20], headers='keys'))
+    print(tabulate(results[:20], headers='keys'))  # type: ignore[arg-type]
 
     for population_size in POPULATION_SIZES:
         for sample_ratio in SAMPLE_RATIOS:
             ratios = [
-                result['sample_mean_accuracy']
+                result['sample_mean_accuracy']  # type: ignore[index]
                 for result in results
-                if result['population_size'] == population_size and result['sample_ratio'] == sample_ratio
+                if result['population_size'] == population_size and result['sample_ratio'] == sample_ratio  # type: ignore[index]
             ]
-            plt.plot(MEAN_SAMPLE_SIZES, ratios, label=f"{population_size} {sample_ratio}")
+            plt.plot(MEAN_SAMPLE_SIZES, ratios, label=f'{population_size} {sample_ratio}')
             plt.show()

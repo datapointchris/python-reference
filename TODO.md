@@ -9,7 +9,7 @@
 ## Tree is broken
 
 - [ ] Multi glob maybe?
-- [ ] Does not exlude nested folders
+- [ ] Does not exclude nested folders
 
 ## Run Length Encoder
 

@@ -1,7 +1,8 @@
 from pathlib import Path
 
 import tabulate
-from colorama import Fore, Style
+from colorama import Fore
+from colorama import Style
 from toolbox import convert_bytes
 
 

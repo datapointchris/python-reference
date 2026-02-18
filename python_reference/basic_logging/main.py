@@ -11,7 +11,7 @@ logger.setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
 fh = logging.FileHandler(filename='./logs.log')
 formatter = logging.Formatter(
-    "%(asctime)s - %(name)s - %(levelname)s: %(message)s <= `%(funcName)s` %(module)s:%(lineno)d %(pathname)s"
+    '%(asctime)s - %(name)s - %(levelname)s: %(message)s <= `%(funcName)s` %(module)s:%(lineno)d %(pathname)s'
 )
 ch.setFormatter(formatter)
 fh.setFormatter(formatter)
