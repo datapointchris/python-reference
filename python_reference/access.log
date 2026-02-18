@@ -1,0 +1,10 @@
+DELETE /home 331 6388 Safari
+POST /contact 273 8801 Chrome
+GET /home 205 1920 Chrome
+DELETE /home 311 8223 Safari
+POST /contact 434 5295 Safari
+DELETE /home 364 4330 Firefox
+DELETE /about 311 7207 Firefox
+PUT /contact 293 2775 Safari
+DELETE /contact 434 775 Safari
+POST /about 456 1990 Chrome

@@ -1,0 +1,154 @@
+2022-08-15 23:03:50,535 - main - <module> - line:17 - INFO - info
+INFO: 2022-08-15 23:06:37,026 - module: main - function: <module> - line: 17 - info
+INFO: 2022-08-15 23:39:33,530 - module: main - function: <module> - line: 23 - info
+INFO: 2022-08-15 23:39:33,587 - module: main - function: main_function - line: 30 - ['platinous', 'auctorial', 'cardiopneumograph', 'Maniva']
+INFO: 2022-08-15 23:39:33,643 - module: base - function: base_function - line: 12 - ['Dictyotaceae', 'coaler']
+INFO: 2022-08-15 23:39:33,699 - module: base - function: base_function - line: 12 - ['tetradrachmon', 'curarize', 'sterculiad', 'hemoglobinous']
+INFO: 2022-08-15 23:39:33,756 - module: home - function: home_function - line: 12 - ['Turnerian', 'wosbird', 'centricity', 'degrader']
+INFO: 2022-08-15 23:39:33,826 - module: home - function: home_function - line: 12 - ['tousle', 'curvature', 'saponary']
+INFO: 2022-08-15 23:46:14,348 - path: /Users/chris/github/projects/logslogs/main.py - module: main - function: <module> - line: 23 - info
+INFO: 2022-08-15 23:46:14,401 - path: /Users/chris/github/projects/logslogs/main.py - module: main - function: main_function - line: 30 - ['predominancy', 'bromopnea']
+INFO: 2022-08-15 23:46:14,459 - path: /Users/chris/github/projects/logslogs/app1/base.py - module: base - function: base_function - line: 12 - ['Minahassian', 'pyromorphous', 'tunder', 'thecia', 'correspondential']
+INFO: 2022-08-15 23:46:14,515 - path: /Users/chris/github/projects/logslogs/app2/base.py - module: base - function: base_function - line: 12 - ['corduroy']
+INFO: 2022-08-15 23:46:14,569 - path: /Users/chris/github/projects/logslogs/app1/home.py - module: home - function: home_function - line: 12 - ['dividualism']
+INFO: 2022-08-15 23:46:14,625 - path: /Users/chris/github/projects/logslogs/app2/home.py - module: home - function: home_function - line: 12 - ['xylophilous', 'chronoscope', 'Spaniardization', 'introflex']
+INFO: 2022-08-15 23:48:52,716 - info function: <module> line: 23 module: main path: /Users/chris/github/projects/logslogs/main.py
+INFO: 2022-08-15 23:48:52,771 - ['arteriectopia'] function: main_function line: 30 module: main path: /Users/chris/github/projects/logslogs/main.py
+INFO: 2022-08-15 23:48:52,825 - ['Saccobranchiata', 'carotene', 'steerling', 'ripplet'] function: base_function line: 11 module: base path: /Users/chris/github/projects/logslogs/app1/base.py
+INFO: 2022-08-15 23:48:52,879 - ['untooled', 'excathedral', 'multivariant', 'Judaeophile'] function: base_function line: 11 module: base path: /Users/chris/github/projects/logslogs/app2/base.py
+INFO: 2022-08-15 23:48:52,933 - ['rant', 'birdseed', 'eighty', 'sheaved'] function: home_function line: 11 module: home path: /Users/chris/github/projects/logslogs/app1/home.py
+INFO: 2022-08-15 23:48:52,985 - ['shagrag', 'unsoldiered', 'windling'] function: home_function line: 11 module: home path: /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-15 23:50:50,241 - INFO:  info function: <module> line: 23 module: main path: /Users/chris/github/projects/logslogs/main.py
+2022-08-15 23:50:50,289 - INFO:  ['iguanian', 'metrocolpocele'] function: main_function line: 31 module: main path: /Users/chris/github/projects/logslogs/main.py
+2022-08-15 23:50:50,341 - INFO:  ['tailor', 'lower', 'relaxedness', 'concassation', 'reimprisonment'] function: base_function line: 11 module: base path: /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-15 23:50:50,397 - INFO:  ['simplification'] function: base_function line: 11 module: base path: /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-15 23:50:50,457 - INFO:  ['repass', 'cursedly', 'foremarch', 'Plumbaginaceae'] function: home_function line: 11 module: home path: /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-15 23:50:50,509 - INFO:  ['bombonne', 'poulp', 'germling'] function: home_function line: 11 module: home path: /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-15 23:52:16,549 - INFO: info <= <module> main:23 path: /Users/chris/github/projects/logslogs/main.py
+2022-08-15 23:52:16,597 - INFO: ['varna', 'unempirically', 'affixation', 'contestableness', 'protoperlarian'] <= main_function main:31 path: /Users/chris/github/projects/logslogs/main.py
+2022-08-15 23:52:16,659 - INFO: ['Zirianian'] <= base_function base:11 path: /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-15 23:52:16,718 - INFO: ['sh', 'bemoaning', 'carbromal', 'Tegeticula', 'symphyogenesis'] <= base_function base:11 path: /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-15 23:52:16,774 - INFO: ['yeomaness', 'quack', 'overburdensome', 'erigible'] <= home_function home:11 path: /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-15 23:52:16,827 - INFO: ['primaveral', 'desklike', 'thirtieth', 'overpreciseness', 'unpervert'] <= home_function home:11 path: /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-15 23:53:09,509 - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-15 23:53:09,558 - INFO: ['liotrichine', 'brachiofaciolingual'] <= `main_function` main:31 /Users/chris/github/projects/logslogs/main.py
+2022-08-15 23:53:09,610 - INFO: ['campshot'] <= `base_function` base:11 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-15 23:53:09,662 - INFO: ['hyperglycemia', 'sowlike', 'unsuffocated', 'nonculmination'] <= `base_function` base:11 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-15 23:53:09,715 - INFO: ['chackle', 'impeticos', 'ruption', 'resettle', 'overway'] <= `home_function` home:11 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-15 23:53:09,768 - INFO: ['lacemaker'] <= `home_function` home:11 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-15 23:58:47,302 - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-15 23:58:47,352 - INFO: ['parturient', 'Messinese', 'enlargement', 'cajuputene'] <= `main_function` main:31 /Users/chris/github/projects/logslogs/main.py
+2022-08-15 23:58:47,408 - INFO: ['disfen', 'wonning', 'uncircumscription'] <= `app1_base_function` base:11 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-15 23:58:47,463 - INFO: ['steatitic', 'uncomprehending', 'postprandially'] <= `app2_base_function` base:11 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-15 23:58:47,516 - INFO: ['unapproaching', 'cystoscopy', 'scyt'] <= `app1_home_function` home:11 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-15 23:58:47,520 - WARNING: warning <= `app2_home_function` home:15 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:00:27,664 - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:00:27,664 - INFO: information <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:00:27,664 - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:00:27,664 - INFO: information <= `app1_home_function` home:14 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:00:27,664 - INFO: information <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:00:30,897 - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:00:30,897 - WARNING: warning <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:00:30,897 - INFO: information <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:00:32,041 - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:00:32,041 - WARNING: warning <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:00:32,041 - WARNING: warning <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:00:32,042 - INFO: information <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:00:32,042 - WARNING: warning <= `app1_home_function` home:14 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:00:32,042 - WARNING: warning <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:01:02,217 - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:01:02,217 - WARNING: warning <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:01:02,217 - INFO: information <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:01:02,217 - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:01:02,217 - DEBUG: debugging <= `app1_home_function` home:14 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:01:02,217 - INFO: information <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:01:06,070 - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:01:06,070 - DEBUG: debugging <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:01:06,070 - INFO: information <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:01:06,070 - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:01:06,070 - WARNING: warning <= `app1_home_function` home:14 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:01:06,070 - WARNING: warning <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:01:07,142 - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:01:07,143 - WARNING: warning <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:01:07,143 - WARNING: warning <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:01:07,144 - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:01:07,145 - DEBUG: debugging <= `app1_home_function` home:14 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:01:07,145 - WARNING: warning <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:51:14,382 - root - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:51:14,382 - root - DEBUG: debugging <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:51:14,382 - root - DEBUG: debugging <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:51:14,383 - root - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:51:14,383 - root - WARNING: warning <= `app1_home_function` home:14 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:51:14,383 - root - WARNING: warning <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:51:27,323 - root - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:51:27,324 - root - WARNING: warning <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:51:27,324 - root - INFO: information <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:51:27,324 - root - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:51:27,324 - root - DEBUG: debugging <= `app1_home_function` home:14 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:51:27,324 - root - INFO: information <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:51:31,196 - root - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:51:31,196 - root - WARNING: warning <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:51:31,196 - root - INFO: information <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:51:31,196 - root - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:51:31,196 - root - INFO: information <= `app1_home_function` home:14 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:51:31,196 - root - INFO: information <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:54:46,425 - root - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:54:46,425 - root - WARNING: warning <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:54:46,425 - app1.base - WARNING: warning <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:54:46,425 - root - INFO: information <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:54:46,425 - root - WARNING: warning <= `app1_home_function` home:14 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:54:46,425 - root - WARNING: warning <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:55:26,503 - root - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:55:26,504 - root - DEBUG: debugging <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:55:26,504 - app1.base - INFO: information <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:55:26,504 - app2.base - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:55:26,504 - app1.home - WARNING: warning <= `app1_home_function` home:15 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:55:26,504 - app2.home - INFO: information <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:55:39,955 - root - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:55:39,955 - root - DEBUG: debugging <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:55:39,956 - app1.base - WARNING: warning <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:55:39,956 - app2.base - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:55:39,956 - app1.home - WARNING: warning <= `app1_home_function` home:15 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:55:39,956 - app2.home - DEBUG: debugging <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:55:40,785 - root - INFO: info <= `<module>` main:23 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:55:40,785 - root - WARNING: warning <= `main_function` main:33 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:55:40,785 - app1.base - INFO: information <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:55:40,785 - app2.base - DEBUG: debugging <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:55:40,785 - app1.home - DEBUG: debugging <= `app1_home_function` home:15 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:55:40,785 - app2.home - DEBUG: debugging <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:56:41,424 - root - INFO: info <= `<module>` main:22 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:56:41,425 - root - DEBUG: debugging <= `main_function` main:32 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:56:41,425 - app1.base - DEBUG: debugging <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:56:41,425 - app2.base - DEBUG: debugging <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:56:41,425 - app1.home - WARNING: warning <= `app1_home_function` home:15 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:56:41,425 - app2.home - INFO: information <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:56:47,974 - root - INFO: info <= `<module>` main:22 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:56:47,974 - root - WARNING: warning <= `main_function` main:32 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:56:47,974 - app1.base - WARNING: warning <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:56:47,974 - app2.base - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:56:47,974 - app1.home - DEBUG: debugging <= `app1_home_function` home:15 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:56:47,974 - app2.home - INFO: information <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:56:49,882 - root - INFO: info <= `<module>` main:22 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:56:49,882 - root - DEBUG: debugging <= `main_function` main:32 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:56:49,882 - app1.base - DEBUG: debugging <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:56:49,882 - app2.base - DEBUG: debugging <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:56:49,882 - app1.home - WARNING: warning <= `app1_home_function` home:15 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:56:49,882 - app2.home - DEBUG: debugging <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:56:51,171 - root - INFO: info <= `<module>` main:22 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:56:51,171 - root - DEBUG: debugging <= `main_function` main:32 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:56:51,171 - app1.base - WARNING: warning <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:56:51,171 - app2.base - INFO: information <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:56:51,171 - app1.home - WARNING: warning <= `app1_home_function` home:15 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:56:51,171 - app2.home - DEBUG: debugging <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:56:55,748 - root - INFO: info <= `<module>` main:22 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:56:55,748 - root - INFO: information <= `main_function` main:32 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:56:55,748 - app1.base - WARNING: warning <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:56:55,748 - app2.base - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:56:55,749 - app1.home - DEBUG: debugging <= `app1_home_function` home:15 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:56:55,749 - app2.home - DEBUG: debugging <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
+2022-08-16 00:57:57,264 - root - INFO: info <= `<module>` main:22 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:57:57,264 - root - WARNING: warning <= `main_function` main:32 /Users/chris/github/projects/logslogs/main.py
+2022-08-16 00:57:57,264 - app1.base - INFO: information <= `app1_base_function` base:14 /Users/chris/github/projects/logslogs/app1/base.py
+2022-08-16 00:57:57,264 - app2.base - WARNING: warning <= `app2_base_function` base:14 /Users/chris/github/projects/logslogs/app2/base.py
+2022-08-16 00:57:57,264 - app1.home - WARNING: warning <= `app1_home_function` home:15 /Users/chris/github/projects/logslogs/app1/home.py
+2022-08-16 00:57:57,264 - app2.home - WARNING: warning <= `app2_home_function` home:14 /Users/chris/github/projects/logslogs/app2/home.py
