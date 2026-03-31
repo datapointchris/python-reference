@@ -16,3 +16,4 @@ htmlcov/
 .ipynb_checkpoints/
 .planning/
 TESTING.*
+.planning
