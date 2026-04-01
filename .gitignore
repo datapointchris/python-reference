@@ -14,6 +14,5 @@ build/
 htmlcov/
 .DS_Store
 .ipynb_checkpoints/
-.planning/
 TESTING.*
 .planning
